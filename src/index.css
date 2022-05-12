@@ -30,3 +30,14 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 20px;
+  cursor: pointer;
+}
